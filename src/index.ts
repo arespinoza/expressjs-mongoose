@@ -14,7 +14,6 @@ app.get("/", async (req, res) => {
 });
 
 app.use("/countries", countryRoutes);
-app.use('/api/agente', require('./routes/agente.route'));
 
 
  
