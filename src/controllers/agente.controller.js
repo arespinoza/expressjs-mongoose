@@ -1,7 +1,7 @@
 //const Agente = require('../models/agente');
 
 
-const agenteCtrl = {}
+//const agenteCtrl = {}
 /** 
 agenteCtrl.getAgentes = async (req, res) => {
 
@@ -71,4 +71,4 @@ agenteCtrl.deleteAgente = async (req, res) => {
 
 */
 
-module.exports = agenteCtrl;
+//module.exports = agenteCtrl;
