@@ -14,6 +14,10 @@ app.get("/", async (req, res) => {
 });
 
 app.use("/countries", countryRoutes);
+app.use('/api/anuncio', require('./routers/anuncio.route'));
+
+
+ 
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
