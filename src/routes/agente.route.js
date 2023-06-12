@@ -1,5 +1,5 @@
 //defino controlador para el manejo de CRUD
-const agenteCtrl = require('./../controllers/agente.controller');
+//const agenteCtrl = require('./../controllers/agente.controller');
 //creamos el manejador de rutas
 const express = require('express');
 const router = express.Router();
